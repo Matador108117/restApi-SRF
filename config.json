@@ -1,0 +1,15 @@
+{
+    "username": "fit_manager",
+    "password": "fRCoM83OLZ5d8GtKxMlLTw6jhGGt7r2h",
+    "database": "fit_nhqz",
+    "host": "dpg-cvhpvl1c1ekc738e69lg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "port": 5432,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+  

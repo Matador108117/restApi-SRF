@@ -1,13 +1,17 @@
 require ('dotenv').config();
 const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize(process.env.TEST_DATABASE_URL, {
-  dialect: 'postgres',
-  dialectOptions: {
-    ssl: {
-      require: true, // This will force SSL/TLS connections
-      rejectUnauthorized: false, // Set to true for production, false for local testing with self-signed certificates
-    },
-  }
+"username": "fit_manager",
+    "password": "fRCoM83OLZ5d8GtKxMlLTw6jhGGt7r2h",
+    "database": "fit_nhqz",
+    "host": "dpg-cvhpvl1c1ekc738e69lg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
  
 });
 module.exports = sequelize;
